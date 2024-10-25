@@ -1,10 +1,88 @@
 /* Styles for Mobile Site */
 
-/* Header & Hero */
+/* Body */ 
+body{
+    background-color:white;
+    font-family: Bitter, "Times New Roman", serif;
+ }
 
+/* Header & Hero */
+header{
+    text-align: center;
+    color: grey; 
+}
+h1,h2,h3,{
+    font-family: Oswald, Impact, sans-serif; 
+    text-align: center;
+    font-size: 40pt;
+}
+h1 {
+    font-size: 40pt;
+    text-align: center;
+}
+#hero img {
+        width: 300px; 
+    }            
+#hero, footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border: 10px outset red; 
+    border-radius: 40px;
+}
 /* Projects */
 
+#projects {
+    text-align: right;
+    color:white;
+    padding: 30px;
+    border: 30px outset red;
+    border-radius: 50px;
+    width: 400px;
+}
+#projects img {
+    max-width: 100%;
+    text-align: left;
+    color: white;
+    
+}
+#projects figure {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+#projects div {
+    text-align: right;
+    color:grey;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 /* Reviews */
+
+#reviews {
+    text-align: right;
+    color:white;
+    padding: 30px;
+    border: 30px outset red;
+    border-radius: 50px;
+    width: 400px;
+}
+    
+#reviews figure {
+    text-align: center;
+    color: grey;
+    font-size: large;
+}
+
+#reviews div {
+    text-align: right;
+    color:grey;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 /* Footer */
 
