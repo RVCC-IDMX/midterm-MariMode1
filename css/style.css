@@ -9,9 +9,9 @@ body{
 /* Header & Hero */
 header{
     text-align: center;
-    color: grey; 
+    color: rgb(100, 42, 42); 
 }
-h1,h2,h3,{
+h1,h2{
     font-family: Oswald, Impact, sans-serif; 
     text-align: center;
     font-size: 40pt;
@@ -21,25 +21,32 @@ h1 {
     text-align: center;
 }
 #hero img {
-        width: 300px; 
+        width: 500px; 
     }            
 #hero, footer {
     text-align: center;
     background-color: white;
     color: black;
-    padding: 30px;
     border: 10px outset red; 
     border-radius: 40px;
 }
+
+/* Sections */
+section {
+    max-width:100%;
+}
+
 /* Projects */
 
 #projects {
-    text-align: right;
+    text-align: center;
     color:white;
-    padding: 30px;
     border: 30px outset red;
     border-radius: 50px;
-    width: 400px;
+    width: 500px;
+}
+.project {
+    text-align:center;
 }
 #projects img {
     max-width: 100%;
@@ -50,45 +57,50 @@ h1 {
 #projects figure {
     text-align: center;
     color: white;
-    font-size: large;
+    /* font-size: 10px; */
 }
 
 #projects div {
-    text-align: right;
-    color:grey;
-    font-size: 30px;
+    text-align: center;
+    color:rgb(93, 32, 32);
+   font-size:18px ; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 /* Reviews */
 
 #reviews {
     text-align: right;
     color:white;
-    padding: 30px;
     border: 30px outset red;
     border-radius: 50px;
-    width: 400px;
+    /*width: 400px;*/
 }
     
 #reviews figure {
     text-align: center;
-    color: grey;
-    font-size: large;
+    color: rgb(126, 61, 61);
+    font-size: 20px;
 }
 
 #reviews div {
-    text-align: right;
-    color:grey;
-    font-size: 30px;
+    text-align: center;
+    color:rgb(93, 41, 41);
+    font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-/* Footer */
+
 
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
+
+    main {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:10px;
+    }
 
     /* Header & Hero */
 
